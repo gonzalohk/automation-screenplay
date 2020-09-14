@@ -1,4 +1,4 @@
-# Automation test POM (Page Object Model)
+# Automation test SCREENPLAY
 Selenium can automate any application with some other elements. 
 - Java
 - Selenium
