@@ -4,7 +4,7 @@ import base.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import pages.LoginPage;
+import tasks.Login;
 
 public class LoginTest extends BaseTest {
     @BeforeMethod
@@ -14,21 +14,19 @@ public class LoginTest extends BaseTest {
 
     @Test
     public void testSuccessfulLogin(){
-        LoginPage loginPage = new LoginPage(webDriver);
+        Login.as(webDriver,"tomsmith","SuperSecretPassword!");
         //TODO ADD Logic
         Assert.assertEquals("test", "test");
     }
 
    @Test
     public void testInvalidCredentials(){
-        LoginPage loginPage = new LoginPage(webDriver);
         //TODO ADD Logic
         Assert.assertEquals("test", "test");
     }
 
     @Test
     public void testLogOut(){
-        LoginPage loginPage = new LoginPage(webDriver);
         //TODO ADD Logic
         Assert.assertTrue(true);
     }
