@@ -4,7 +4,7 @@ import base.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import tasks.Login;
+import tasks.*;
 
 public class LoginTest extends BaseTest {
     @BeforeMethod
@@ -12,22 +12,22 @@ public class LoginTest extends BaseTest {
          webDriver.get(URL + "login");
     }
 
-    @Test
+   @Test
     public void testSuccessfulLogin(){
         Login.as(webDriver,"tomsmith","SuperSecretPassword!");
-        //TODO ADD Logic
-        Assert.assertEquals("test", "test");
+        Assert.assertTrue(IsVisibleLoginSuccessMessage.visible(webDriver));
     }
 
    @Test
     public void testInvalidCredentials(){
-        //TODO ADD Logic
-        Assert.assertEquals("test", "test");
+        Login.as(webDriver, "tomsmith", "WrongPassword!");
+        Assert.assertTrue(IsVisibleLoginErrorMessage.visible(webDriver));
     }
 
     @Test
     public void testLogOut(){
-        //TODO ADD Logic
-        Assert.assertTrue(true);
+        Login.as(webDriver,"tomsmith","SuperSecretPassword!");
+        Logout.onClick(webDriver);
+        Assert.assertTrue(IsLoginPageDisplayed.form(webDriver));
     }
 }
