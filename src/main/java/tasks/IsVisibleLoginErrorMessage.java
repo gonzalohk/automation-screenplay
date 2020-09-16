@@ -6,6 +6,6 @@ import ui.LoginUI;
 
 public class IsLoginErrorMessage {
     public static boolean visible(WebDriver webDriver){
-        return WaitUntilElement.isVisible(webDriver, LoginUI.errorMessage);
+        return WaitUntilElement.isVisible(webDriver, LoginUI.errorLoginAlert);
     }
 }
