@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b5f3859d-4871-4591-81e2-8276a8a5150a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/IsLoginPageDisplayed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/IsVisibleLoginSuccessMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/Logout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ui/SecureUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/IsLoginErrorMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/IsVisibleLoginErrorMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ui/LoginUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/LoginUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/login/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/login/LoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,24 +23,23 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="1hVMiCCIwA81kBebiRu4QoCRfOk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/tasks" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
@@ -69,7 +62,7 @@
       <recent name="E:\GONZALO\TESTING-DIPLO\automation-screenplay\src\main\java\helper" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest (1)">
+  <component name="RunManager" selected="TestNG.LoginTest.testSuccessfulLogin">
     <configuration name="E:/GONZALO/TESTING-DIPLO/automation-page-object/testNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation-page-object" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG.xml" />
@@ -107,8 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automation-page-object" />
+    <configuration name="LoginTest.testSuccessfulLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation-screenplay" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="login.*" />
@@ -117,7 +110,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="login" />
       <option name="MAIN_CLASS_NAME" value="login.LoginTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="testSuccessfulLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -136,14 +130,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTest.testSuccessfulLogin" />
         <item itemvalue="TestNG.LoginTest (1)" />
         <item itemvalue="TestNG.E:/GONZALO/TESTING-DIPLO/automation-screenplay/testNG.xml" />
         <item itemvalue="TestNG.&lt;default&gt;" />
         <item itemvalue="TestNG.E:/GONZALO/TESTING-DIPLO/automation-page-object/testNG.xml" />
-        <item itemvalue="TestNG.LoginTest" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -158,10 +153,11 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="763" y="223" key="#Project_Structure" timestamp="1600093934606">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="332" y="27" width="1024" height="741" key="#Project_Structure" timestamp="1600304313486">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="763" y="223" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1600093934606" />
+    <state x="332" y="27" width="1024" height="741" key="#Project_Structure/0.27.1366.741@0.27.1366.741" timestamp="1600304313486" />
     <state x="614" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1600097219817">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
