@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5f3859d-4871-4591-81e2-8276a8a5150a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b5f3859d-4871-4591-81e2-8276a8a5150a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,17 +60,7 @@
       <recent name="E:\GONZALO\TESTING-DIPLO\automation-screenplay\src\main\java\helper" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest.testSuccessfulLogin">
-    <configuration name="E:/GONZALO/TESTING-DIPLO/automation-page-object/testNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automation-page-object" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.LoginTest.testInvalidCredentials">
     <configuration name="E:/GONZALO/TESTING-DIPLO/automation-screenplay/testNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation-screenplay" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG.xml" />
@@ -94,6 +82,24 @@
       <option name="PACKAGE_NAME" value="login" />
       <option name="MAIN_CLASS_NAME" value="login.LoginTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.testInvalidCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation-screenplay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="login" />
+      <option name="MAIN_CLASS_NAME" value="login.LoginTest" />
+      <option name="METHOD_NAME" value="testInvalidCredentials" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -130,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTest.testInvalidCredentials" />
         <item itemvalue="TestNG.LoginTest.testSuccessfulLogin" />
         <item itemvalue="TestNG.LoginTest (1)" />
         <item itemvalue="TestNG.E:/GONZALO/TESTING-DIPLO/automation-screenplay/testNG.xml" />
         <item itemvalue="TestNG.&lt;default&gt;" />
-        <item itemvalue="TestNG.E:/GONZALO/TESTING-DIPLO/automation-page-object/testNG.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -186,5 +192,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="278" y="81" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600093543648" />
+    <state x="4" y="100" width="1347" height="601" key="new project wizard" timestamp="1600304395823">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="4" y="100" width="1347" height="601" key="new project wizard/0.27.1366.741@0.27.1366.741" timestamp="1600304395823" />
   </component>
 </project>
