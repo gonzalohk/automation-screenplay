@@ -24,7 +24,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b5f3859d-4871-4591-81e2-8276a8a5150a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/actions/Count.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/Count.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tasks/AddElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/AddElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/RemoveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/RemoveElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ui/AddRemoveUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/AddRemoveUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/elements/AddRemoveElementsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/AddRemoveElementsTest.java" afterDir="false" />
     </list>
@@ -83,7 +85,24 @@
       <recent name="E:\GONZALO\TESTING-DIPLO\automation-page-object\resourses" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AddRemoveElementsTest.testAddElement">
+  <component name="RunManager" selected="TestNG.AddRemoveElementsTest">
+    <configuration name="AddRemoveElementsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation-screenplay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="elements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="elements" />
+      <option name="MAIN_CLASS_NAME" value="elements.AddRemoveElementsTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AddRemoveElementsTest.testAddElement" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation-screenplay" />
       <extension name="coverage">
@@ -102,27 +121,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E:/GONZALO/TESTING-DIPLO/automation-screenplay/testNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automation-screenplay" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddRemoveElementsTest.testRemoveElement" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation-screenplay" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="login.*" />
+          <option name="PATTERN" value="elements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="login" />
-      <option name="MAIN_CLASS_NAME" value="login.LoginTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="elements" />
+      <option name="MAIN_CLASS_NAME" value="elements.AddRemoveElementsTest" />
+      <option name="METHOD_NAME" value="testRemoveElement" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -167,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AddRemoveElementsTest" />
+        <item itemvalue="TestNG.AddRemoveElementsTest.testRemoveElement" />
         <item itemvalue="TestNG.AddRemoveElementsTest.testAddElement" />
         <item itemvalue="TestNG.LoginTest.testInvalidCredentials" />
         <item itemvalue="TestNG.LoginTest.testSuccessfulLogin" />
-        <item itemvalue="TestNG.LoginTest (1)" />
-        <item itemvalue="TestNG.E:/GONZALO/TESTING-DIPLO/automation-screenplay/testNG.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -214,42 +224,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="578" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600213244256" />
-    <state width="1320" height="143" key="GridCell.Tab.0.bottom" timestamp="1600307348378">
+    <state width="1320" height="215" key="GridCell.Tab.0.bottom" timestamp="1600313482880">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1877" height="396" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600221521845" />
-    <state width="1320" height="143" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1600307348378" />
-    <state width="1320" height="143" key="GridCell.Tab.0.center" timestamp="1600307348378">
+    <state width="1320" height="215" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1600313482880" />
+    <state width="1320" height="215" key="GridCell.Tab.0.center" timestamp="1600313482880">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1877" height="396" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600221521845" />
-    <state width="1320" height="143" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1600307348378" />
-    <state width="1320" height="143" key="GridCell.Tab.0.left" timestamp="1600307348377">
+    <state width="1320" height="215" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1600313482880" />
+    <state width="1320" height="215" key="GridCell.Tab.0.left" timestamp="1600313482879">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1877" height="396" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600221521845" />
-    <state width="1320" height="143" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1600307348377" />
-    <state width="1320" height="143" key="GridCell.Tab.0.right" timestamp="1600307348378">
+    <state width="1320" height="215" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1600313482879" />
+    <state width="1320" height="215" key="GridCell.Tab.0.right" timestamp="1600313482880">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state width="1877" height="396" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600221521845" />
-    <state width="1320" height="143" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1600307348378" />
-    <state width="1320" height="215" key="GridCell.Tab.1.bottom" timestamp="1600305382294">
+    <state width="1320" height="215" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1600313482880" />
+    <state width="1320" height="215" key="GridCell.Tab.1.bottom" timestamp="1600313482881">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="215" key="GridCell.Tab.1.bottom/0.27.1366.741@0.27.1366.741" timestamp="1600305382294" />
-    <state width="1320" height="215" key="GridCell.Tab.1.center" timestamp="1600305382294">
+    <state width="1320" height="215" key="GridCell.Tab.1.bottom/0.27.1366.741@0.27.1366.741" timestamp="1600313482881" />
+    <state width="1320" height="215" key="GridCell.Tab.1.center" timestamp="1600313482881">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="215" key="GridCell.Tab.1.center/0.27.1366.741@0.27.1366.741" timestamp="1600305382294" />
-    <state width="1320" height="215" key="GridCell.Tab.1.left" timestamp="1600305382294">
+    <state width="1320" height="215" key="GridCell.Tab.1.center/0.27.1366.741@0.27.1366.741" timestamp="1600313482881" />
+    <state width="1320" height="215" key="GridCell.Tab.1.left" timestamp="1600313482880">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="215" key="GridCell.Tab.1.left/0.27.1366.741@0.27.1366.741" timestamp="1600305382294" />
-    <state width="1320" height="215" key="GridCell.Tab.1.right" timestamp="1600305382294">
+    <state width="1320" height="215" key="GridCell.Tab.1.left/0.27.1366.741@0.27.1366.741" timestamp="1600313482880" />
+    <state width="1320" height="215" key="GridCell.Tab.1.right" timestamp="1600313482881">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="215" key="GridCell.Tab.1.right/0.27.1366.741@0.27.1366.741" timestamp="1600305382294" />
+    <state width="1320" height="215" key="GridCell.Tab.1.right/0.27.1366.741@0.27.1366.741" timestamp="1600313482881" />
     <state x="278" y="81" key="SettingsEditor" timestamp="1600093543648">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

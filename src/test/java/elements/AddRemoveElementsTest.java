@@ -5,6 +5,7 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import tasks.AddElement;
+import tasks.RemoveElement;
 
 public class AddRemoveElementsTest extends BaseTest {
     @BeforeMethod
@@ -22,9 +23,10 @@ public class AddRemoveElementsTest extends BaseTest {
 
    @Test
     public void testRemoveElement(){
-        //TODO ADD Logic
-        Assert.assertEquals("test", "test");
+        AddElement.add(webDriver);
+        int numberElementsBeforeRemove = RemoveElement.size(webDriver);
+        RemoveElement.remove(webDriver);
+        int numberElementsAfterRemove = RemoveElement.size(webDriver);
+        Assert.assertEquals(numberElementsBeforeRemove - 1, numberElementsAfterRemove);
     }
-
-
 }
