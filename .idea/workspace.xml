@@ -3,6 +3,7 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="ALL" />
   </component>
+<<<<<<< HEAD
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -29,6 +30,15 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/tasks/RemoveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/RemoveElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ui/AddRemoveUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/AddRemoveUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/elements/AddRemoveElementsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/elements/AddRemoveElementsTest.java" afterDir="false" />
+=======
+  <component name="ChangeListManager">
+    <list default="true" id="b5f3859d-4871-4591-81e2-8276a8a5150a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/CheckElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/CheckElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/UncheckElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/UncheckElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/checkboxes/CheckboxesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/checkboxes/CheckboxesTest.java" afterDir="false" />
+>>>>>>> 5431c00d0c4e59cbc07a369973caaaaf2b891d97
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +58,11 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+<<<<<<< HEAD
         <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+=======
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.2\plugins\maven\lib\maven3" />
+>>>>>>> 5431c00d0c4e59cbc07a369973caaaaf2b891d97
       </MavenGeneralSettings>
     </option>
   </component>
@@ -62,7 +76,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+<<<<<<< HEAD
     <property name="project.structure.last.edited" value="Project" />
+=======
+    <property name="project.structure.last.edited" value="Modules" />
+>>>>>>> 5431c00d0c4e59cbc07a369973caaaaf2b891d97
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
@@ -85,6 +103,7 @@
       <recent name="E:\GONZALO\TESTING-DIPLO\automation-page-object\resourses" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="TestNG.AddRemoveElementsTest">
     <configuration name="AddRemoveElementsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation-screenplay" />
@@ -97,6 +116,30 @@
       <option name="PACKAGE_NAME" value="elements" />
       <option name="MAIN_CLASS_NAME" value="elements.AddRemoveElementsTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+=======
+  <component name="RunManager" selected="TestNG.CheckboxesTest">
+    <configuration name="CheckboxesTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation-screenplay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="checkboxes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="checkboxes" />
+      <option name="MAIN_CLASS_NAME" value="checkboxes.CheckboxesTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E:/GONZALO/TESTING-DIPLO/automation-page-object/testNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation-page-object" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testNG.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+>>>>>>> 5431c00d0c4e59cbc07a369973caaaaf2b891d97
       <properties />
       <listeners />
       <method v="2">
@@ -139,6 +182,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="LoginTest.testInvalidCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation-screenplay" />
       <extension name="coverage">
@@ -158,6 +202,9 @@
       </method>
     </configuration>
     <configuration name="LoginTest.testSuccessfulLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+>>>>>>> 5431c00d0c4e59cbc07a369973caaaaf2b891d97
       <module name="automation-screenplay" />
       <extension name="coverage">
         <pattern>
@@ -177,11 +224,19 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="TestNG.AddRemoveElementsTest" />
         <item itemvalue="TestNG.AddRemoveElementsTest.testRemoveElement" />
         <item itemvalue="TestNG.AddRemoveElementsTest.testAddElement" />
         <item itemvalue="TestNG.LoginTest.testInvalidCredentials" />
         <item itemvalue="TestNG.LoginTest.testSuccessfulLogin" />
+=======
+        <item itemvalue="TestNG.CheckboxesTest" />
+        <item itemvalue="TestNG.LoginTest (1)" />
+        <item itemvalue="TestNG.E:/GONZALO/TESTING-DIPLO/automation-screenplay/testNG.xml" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
+        <item itemvalue="TestNG.E:/GONZALO/TESTING-DIPLO/automation-page-object/testNG.xml" />
+>>>>>>> 5431c00d0c4e59cbc07a369973caaaaf2b891d97
       </list>
     </recent_temporary>
   </component>
@@ -264,9 +319,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="278" y="81" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600093543648" />
+<<<<<<< HEAD
     <state x="4" y="100" width="1347" height="601" key="new project wizard" timestamp="1600304395823">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="4" y="100" width="1347" height="601" key="new project wizard/0.27.1366.741@0.27.1366.741" timestamp="1600304395823" />
+=======
+    <state x="0" y="239" width="585" height="801" key="find.popup" timestamp="1600303517140">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="239" width="585" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600303517140" />
+>>>>>>> 5431c00d0c4e59cbc07a369973caaaaf2b891d97
   </component>
 </project>
