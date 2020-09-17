@@ -1,6 +1,9 @@
 package tasks;
 
+import actions.Check;
+import actions.Click;
 import org.openqa.selenium.WebDriver;
+import ui.CheckboxesUI;
 
 public class UncheckElement {
     public static void ClickChecbox2(WebDriver driver){

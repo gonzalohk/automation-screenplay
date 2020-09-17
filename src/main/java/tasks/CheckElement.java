@@ -1,8 +1,13 @@
 package tasks;
 
+import actions.Check;
+import actions.Click;
 import org.openqa.selenium.WebDriver;
+import ui.CheckboxesUI;
+import ui.ListElementsUI;
 
-public void CheckboxLink(WebDriver driver){
+public class CheckElement {
+    public static void CheckboxLink(WebDriver driver){
         Click.on(driver, ListElementsUI.checkboxOption);
     }
 

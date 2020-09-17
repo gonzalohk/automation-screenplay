@@ -4,6 +4,8 @@ import base.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import tasks.CheckElement;
+import tasks.UncheckElement;
 
 
 public class CheckboxesTest extends BaseTest {
