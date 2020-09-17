@@ -14,14 +14,17 @@ public class CheckboxesTest extends BaseTest {
 
     @Test
     public void testCheck(){
-        //TODO ADD Logic
-        Assert.assertEquals("test", "test");
+        CheckElement.ClickChecbox1(webDriver);
+        CheckElement.isSelectedCheck1(webDriver);
+
+        Assert.assertTrue(CheckElement.isSelectedCheck1(webDriver));
     }
 
    @Test
     public void testUncheck(){
-        //TODO ADD Logic
-        Assert.assertEquals("test", "test");
+        UncheckElement.ClickChecbox2(webDriver);
+       UncheckElement.isUnSelectedCheck2(webDriver);
+       Assert.assertFalse(UncheckElement.isUnSelectedCheck2(webDriver));
     }
 
 
