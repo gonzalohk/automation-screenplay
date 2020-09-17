@@ -3,9 +3,7 @@ package ui;
 import org.openqa.selenium.By;
 
 public class AddRemoveUI {
-    //TODO ADD Locators
-    public static By userInput = By.id("user");
-    public static By passWordInput = By.id("pass");
-    public static By loginButton = By.id("loginButton");
-    public static By errorMessage = By.name("errorMessage");
+    public static By addElementButton = By.xpath("//*[@id=\"content\"]/div/button");
+    //public static By elements = By.id("//*[@id=\"elements\"]/button");
+    public static By elements = By.className("added-manually");
 }
