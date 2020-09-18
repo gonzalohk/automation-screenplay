@@ -15,13 +15,15 @@ public class LoginTest extends BaseTest {
    @Test
     public void testSuccessfulLogin(){
         Login.as(webDriver,"tomsmith","SuperSecretPassword!");
-        Assert.assertTrue(IsVisibleLoginSuccessMessage.visible(webDriver));
+        Assert.assertTrue(IsVisibleLoginSuccessMessage.visible(webDriver),"Login success message was shown");
+        Assert.assertEquals(GetLoginSuccessMessage.getText(webDriver),"You logged into a secure area!\n×");
     }
 
    @Test
     public void testInvalidCredentials(){
         Login.as(webDriver, "tomsmith", "WrongPassword!");
-        Assert.assertTrue(IsVisibleLoginErrorMessage.visible(webDriver));
+        Assert.assertTrue(IsVisibleLoginErrorMessage.visible(webDriver),"Login error message was shown");
+        Assert.assertEquals(GetLoginErrorMessage.getText(webDriver),"Your password is invalid!\n×");
     }
 
     @Test
