@@ -21,7 +21,7 @@ public class LoginTest extends BaseTest {
 
    @Test
     public void testInvalidCredentials(){
-        Login.as(webDriver, "tomsmith", "WrongPassword!");
+        Login.as(webDriver, "tomsmith", "WrongPassword!");        
         Assert.assertTrue(IsVisibleLoginErrorMessage.visible(webDriver),"Login error message was shown");
         Assert.assertEquals(GetLoginErrorMessage.getText(webDriver),"Your password is invalid!\n×");
     }
